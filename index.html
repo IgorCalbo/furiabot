@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furiabot</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="chatbot-popup">
+        <!-- Cabecalho -->
+        <div class="chatbot-cabecalho">
+            <div class="cabecalho-info">
+                <img class="chatbot-logo" src="furia-logo.png" alt="Logo Furia">
+                <h2 class="logo-texto">Furiabot</h2>
+            </div>
+            <button id="chatbot-fechar" class="material-symbols-rounded">keyboard_arrow_down</button>
+        </div>
+
+        <!-- Body -->
+        <div class="chatbot-content">
+            <div class="mensagem chatbot-mensagem">
+                <img class="chatbot-avatar" src="furia-logo.png" alt="Logo Furia" width="50">
+                <div class="mensagem-texto">
+                    Saudações furiosas! <br>
+                    Como posso ajudar hoje?
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="chatbot-footer">
+            <form action="#" class="chatbot-form">
+                <textarea placeholder="Mensagem..." class="input-mensagem" required></textarea>
+                <div class="chatbot-controles">
+                    <button type="submit" id="mandar-mensagem" class="material-symbols-rounded">arrow_upward</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
